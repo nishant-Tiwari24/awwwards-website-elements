@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(18, 18, 62);
+    height: 3rem;
+    width: 100%;
+}
+
+.navbar .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-left: 2.5rem;
+    font-size: 0.8rem;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: none;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    color: rgb(137, 137, 145);
+    transition: 0.5s;
+    font-size: 1rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 6rem 0;
+
+}
+
+.leftsection {
+    width: 44%;
+    font-size: 2.5rem;
+    margin-top: 8rem;
+    
+}
+
+.purple {
+    color: rgb(146, 73, 215);
+}
+
+.rightsection {
+    width: 30%;
+
+}
+
+section .rightsection img {
+    width: 30rem;
+    filter: drop-shadow(10px 0px 53px #050b62);
+    margin: 47px;
+}
+
+#element {
+    color: rgb(146, 73, 215);
+
+}
+
+header .navbar .logo span {
+    color: rgb(146, 73, 215);
+}
+
+.button_class {
+    margin-top: 1rem;
+}
+
+button {
+    width: 10rem;
+    height: 2.5rem;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.18);
+    background-color: rgba(28, 28, 38, 0.7);
+    border-radius: 7px;
+    font-size: 0.8rem;
+}
+
+button:hover {
+    background-color: rgb(110, 67, 146);
+    color: rgb(220, 230, 238);
+    border: 2px solid rgba(44, 42, 42, 0.18);
+    transition: 0.5s;
+    box-shadow: 3px 2px 10px black;
+}
+
+.intro {
+    filter: drop-shadow(0px 0px 9px #c700ff);
+}
+
+.intro1 {
+    filter: drop-shadow(0px 0px 9px #c700ff);
+}
+
+main hr {
+    border: 0;
+    background: #816788;
+    height: 1.5px;
+    margin: 40px 45px;
+}
+
+/* .pastexperience {
+    height: 40%;
+    width: 100%;
+} */
+
+main section .pastexperience .videoediting::before {
+    content: 'Work Experience';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5.5rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #816788 ;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.videoediting .container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container .imgbox {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+.pastexperience .videoediting .container .imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pastexperience .videoediting .container .content {
+    position: absolute;
+    right: 0;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background: #333;
+    z-index: 1;
+    max-width: 400px;
+    color: #fff;
+    border-bottom: 6px solid rgb(163, 102, 221);
+}
+
+.pastexperience h2 {
+    margin-left: 200px;
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
